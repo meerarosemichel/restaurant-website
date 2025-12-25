@@ -1,0 +1,81 @@
+
+.reservation-page {
+    height: 100vh;
+    background: url("../images/reserve.png") center/cover no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.reservation-box {
+    position: relative;
+    background: hwb(47 70% 19% / 0.292);
+    padding: 40px;
+    width: 420px;
+    color: #fff;
+    border-radius: 6px;
+    z-index: 1;
+    text-align: center;
+}
+
+.reservation-box h2 {
+    letter-spacing: 4px;
+}
+
+.sub-title {
+    margin: 10px 0 25px;
+    color: #201604;
+}
+
+/* FORM */
+.reservation-form .form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.reservation-form input,
+.reservation-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.reservation-form textarea {
+    height: 80px;
+    resize: none;
+}
+
+.terms {
+    font-size: 12px;
+    margin: 15px 0;
+    color: #eff0f4;
+}
+
+.terms a {
+    color: #bea511;
+    text-decoration: none;
+}
+
+/* BUTTON */
+.reserve-btn {
+    width: 100%;
+    padding: 12px;
+    background: #0fa31eb6;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reserve-btn:hover {
+    background: #e5c77d;
+}

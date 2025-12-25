@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reserve.css">
+</head>
+<body>
+<header class="header">
+    <h1>Delicious Restaurant</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="reservation.html" class="active">Reservation</a>
+    </nav>
+</header>
+
+<!-- RESERVATION SECTION -->
+<section class="reservation-page">
+    <div class="reservation-overlay"></div>
+
+    <!-- reservation box -->
+    <div class="reservation-box">
+        <h2>RESERVATION</h2>
+        <p class="sub-title">BOOK A TABLE</p>
+
+        <form class="reservation-form" onsubmit="return bookTable()">
+
+            <div class="form-row">
+                <input type="number" id="people" placeholder="Adults" required>
+                <input type="number" placeholder="Children 3 to 12">
+            </div>
+
+            <div class="form-row">
+                <input type="date" id="date" required>
+                <input type="time" id="time" required>
+            </div>
+
+            <textarea placeholder="Leave a comment or special request"></textarea>
+
+            <p class="terms">
+                By clicking “Book Table” you agree to our
+                <a href="#">Terms & Conditions</a>
+            </p>
+
+            <button type="submit" class="reserve-btn">
+                BOOK TABLE
+            </button>
+
+        </form>
+    </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
