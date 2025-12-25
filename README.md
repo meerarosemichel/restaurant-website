@@ -1,6 +1,5 @@
 # restaurant-website
 A simple and responsive restaurant website created using HTML and CSS as a beginner web project.
-# Restaurant Website
 
 This is a responsive restaurant website built using **HTML** and **CSS**.  
 It showcases a simple restaurant layout, including a reservation form, menu display, and responsive design for mobile and desktop.
