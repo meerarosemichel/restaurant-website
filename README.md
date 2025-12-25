@@ -12,7 +12,8 @@ It showcases a simple restaurant layout, including a reservation form, menu disp
 
 ## Live Demo
 You can view the live website here:  
-[Restaurant Website](https://meerarosemichel.github.io/restaurant-website/)
+[Restaurant Website](https://github.com/meerarosemichel/restaurant-website)
+
 
 ## Technologies Used
 - HTML
